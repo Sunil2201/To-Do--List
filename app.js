@@ -54,7 +54,7 @@ function deleteCheck(e){
     //Check  Mark
     if(item.classList[0] === "complete-btn"){
         const todo = item.parentElement;
-        todo.classList.toggle("completed")
+        todo.classList.add("completed")
     }
 }
 
