@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>To-do list</title>
+</head>
+<body>
+    
+        <div class="container">
+            <h1><b>Sunil's to-do list</b></h1>
+        </div>
+        
+        <div class="date">
+            <h2 id="currentDate"></h3>
+            <h2 id="currentMonth"></h2>
+        </div>
+        
+        <div class="taskcount">
+            <h3 id="tasks"> </h3>
+        </div>
+   
+
+    <form action="None">
+        <div class="form-container">
+            <input type="text" class="todo-input">
+            <button class="todo-button" type="button">
+                <i class="fas fa-plus-square"></i>
+            </button>
+            <div class="select">
+                <select name="todos" class="filter-todo">
+                    
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                    
+                </select>
+            </div>
+        </div>
+      </form>
+   <div class="todo-container"> 
+       <ul class="todo-list">
+           
+       </ul>
+   </div>
+
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
